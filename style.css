@@ -465,7 +465,8 @@ h6 {
 #sidebar {
   position: relative;
   float: left;
-  width: 100%;
+  width: 18%;
+  min-width: 320px;
 }
 
 #dashboard {
@@ -488,4 +489,8 @@ ul#dashboard li a {
   padding: 6px;
   box-sizing: border-box;
   text-decoration: none;
+  background-color: #2e2e2e;
+  padding: 20px;
+  color: #8f8f8f;
 }
+
