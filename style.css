@@ -409,6 +409,9 @@ strong {
     font-weight: 700;
 }
 
+p {
+    margin: 1em 0em;
+}
 #wrapper {
     position: relative;
     float: left;
@@ -507,7 +510,7 @@ ul#dashboard li i {
 }
 
 ul#dashboard li a {
-    font-size: 1.2em;
+    font-size: 1.4em;
     position: relative;
     float: right;
     width: 80%;
@@ -570,6 +573,7 @@ ul#dashboard li:hover a {
     min-width: 320px;
     box-sizing: border-box;
     box-shadow: 0.1em 0.3em 0.5em rgb(62,62,62,.5);
+    font-size: 1.4em;
 }
 
 #feature {
@@ -577,26 +581,25 @@ ul#dashboard li:hover a {
     float: left;
     width: 100%;
     background-color: #ffffff;
-    padding: 40px;
+    padding: 2.5em;
     box-sizing: border-box;
     border-bottom: 6px #e1e3e5 solid;
+    color: #394555;
 }
 
 #f-left {
     position: relative;
     float: left;
-    color: #394555;
-    font-size: 1.4em;
     width: 100%;
     line-height: 1.2em;
 
 }
 
-#f-left .greetings {
+.header-text {
     position: relative;
     float: left;
     width: 100%;
-    font-size: 1.6em; 
+    font-size: 1.4em; 
     line-height: 1.2em;
     padding-bottom: 20px;
 }
@@ -608,4 +611,6 @@ ul#dashboard li:hover a {
     background-color: #ffffff;
     height: 300px;
     margin-top: 6px;
+    padding: 40px;
+    color: #394555;
 }
