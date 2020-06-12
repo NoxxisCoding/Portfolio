@@ -409,6 +409,9 @@ strong {
     font-weight: 700;
 }
 
+p {
+    margin: 1em 0em;
+}
 #wrapper {
     position: relative;
     float: left;
