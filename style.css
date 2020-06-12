@@ -583,19 +583,19 @@ ul#dashboard li:hover a {
     padding: 40px;
     box-sizing: border-box;
     border-bottom: 6px #e1e3e5 solid;
+    color: #394555;
 }
 
 #f-left {
     position: relative;
     float: left;
-    color: #394555;
     font-size: 1.4em;
     width: 100%;
     line-height: 1.2em;
 
 }
 
-#f-left .greetings {
+#f-left .header-text {
     position: relative;
     float: left;
     width: 100%;
@@ -611,4 +611,6 @@ ul#dashboard li:hover a {
     background-color: #ffffff;
     height: 300px;
     margin-top: 6px;
+    padding: 40px;
+    color: #394555;
 }
