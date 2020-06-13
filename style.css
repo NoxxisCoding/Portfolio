@@ -613,4 +613,5 @@ ul#dashboard li:hover a {
     margin-top: 6px;
     padding: 40px;
     color: #394555;
+    box-sizing: border-box;
 }
